@@ -1,0 +1,1 @@
+function load (gameID) {const response = await fetch("https://cdn.statically.io/gh/gotheominecraftgo/abcode@main/games/"+gameID+".html");const code = await response.text();document.open();document.write(code);document.close();}
